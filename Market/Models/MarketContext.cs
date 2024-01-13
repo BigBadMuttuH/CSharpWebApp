@@ -2,7 +2,7 @@
 
 namespace Market.Models;
 
-public class ProductContext : DbContext
+public class MarketContext : DbContext
 {
     public DbSet<ProductStorage> ProductStorages { get; set; }
     public DbSet<Product> Products { get; set; }
@@ -21,13 +21,12 @@ public class ProductContext : DbContext
         }
     }
 
-    // TODO:01:44:00
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         // Конфигурация Product
         modelBuilder.Entity<Product>()
             .ToTable("product")
-            .Property(p => p.Cost)
+            .Property(p => p.Price)
             .IsRequired(); // Стоимость обязательна
 
         modelBuilder.Entity<Product>()
