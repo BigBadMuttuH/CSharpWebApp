@@ -366,3 +366,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+001_ASP.Net/01_WebAppLecture/01_WebAppLecture/Properties
+001_ASP.Net/01_WebAppLecture/01_WebAppLecture/Views/Shared
+001_ASP.Net/01_WebAppLecture/01_WebAppLecture/wwwroot
+001_ASP.Net/02_ApiExample/log.txt
