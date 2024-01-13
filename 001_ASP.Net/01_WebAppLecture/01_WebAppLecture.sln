@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_WebAppLecture", "01_WebAppLecture\01_WebAppLecture.csproj", "{0064D0DE-F54B-41CF-8519-0F3D5310456B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0064D0DE-F54B-41CF-8519-0F3D5310456B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0064D0DE-F54B-41CF-8519-0F3D5310456B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0064D0DE-F54B-41CF-8519-0F3D5310456B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0064D0DE-F54B-41CF-8519-0F3D5310456B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
